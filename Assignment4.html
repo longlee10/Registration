@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Assignment4.css">
+</head>
+<body>
+    <div id="container">
+        <div id="banner"><img src="image/user-group-296.png" alt="User icon"></div>
+        <div id="formcontainer">
+            <form action=""><br>
+                <fieldset class="fieldset">
+                    <h2>Member Registration</h2>
+                    <b><p id="warning">Please complete all the fields below:</p></b>
+                    <label for="fname">First Name</label>
+                    <input type="text" class="form" id="fname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="form" id="lname"> 
+                    <label for="address">Address</label>
+                    <input type="text" class="form" id="address"> 
+                    <label for="city">City</label>
+                    <input type="text" name="" class="form" id="city"> 
+                    <label for="postal">Postal Code</label>
+                    <input type="text" name="" id="postal" class="form">
+                    <p id="pcWarning" class="message"></p>
+                    <label for="province">Province</label>
+                    <select name="" id="province" class="form">
+                        <option value="">ON</option>
+                        <option value="">MB</option>
+                        <option value="">SK</option>
+                        <option value="">QC</option>
+                        <option value="">BC</option>
+                        <option value="">AB</option>
+                    </select>
+                    <label for="age">Age</label>
+                    <input type="text" name="" id="age" class="form">
+                    <p id="ageWarning" class="message"></p>
+                    <label for="password">Password</label>
+                    <input type="password" name="" id="password" class="form">
+                    <p id="pwWarning" class="message"></p>
+                    <label for="cf">Confirm Password</label>
+                    <input type="password" name="" id="cf" class="form">
+                    <p id="cfpwWarning" class="message"></p>
+                    <label for="email">Email</label>
+                    <input type="text" name="" id="email" class="form">
+                    <p id="emailWarning" class="message"></p><br>
+                    <div id="button">
+                        <a href="Success.html" id="link"><button id="register" >Register Now</button></a>
+                         &nbsp;&nbsp; <button id="clear">Clear Form</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div id="copyright">
+        <b><p>&copy; Copyright - Photo Gallery by Hoang Long Le - Student# 301236235<br><br>
+        COMP125 - Assignment 3 - Summer 2022 - Centennial College</p></b>
+    </div>
+    
+    <script src="Assignment4.js"></script>
+</body>
+</html>
